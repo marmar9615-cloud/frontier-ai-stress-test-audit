@@ -1,0 +1,6 @@
+artifact_id,path,type,source_model_or_system,verification_status,notes
+PAPER-001,paper/frontier-ai-stress-test-audit-v1.pdf,preprint,Marcel Jiron,uploaded,"Zenodo DOI 10.5281/zenodo.19779656"
+PROMPT-001,prompts/,prompt set,TBD,pending,"Add stress-test prompts here"
+ARTIFACT-OPENAI-001,artifacts/openai-side/,artifact bundle,TBD,pending,"Add OpenAI-side files and logs here"
+ARTIFACT-CLAUDE-001,artifacts/claude-side/,artifact bundle,TBD,pending,"Add Claude-side files and logs here"
+VERIFY-001,verification/,test logs,TBD,pending,"Add commands, expected outputs, and logs here"

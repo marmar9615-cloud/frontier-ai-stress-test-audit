@@ -1,0 +1,3 @@
+PWD=/mnt/data/model_audit_work/extracted/cctest5(1)/cctest5
+CMD=cargo test --all --locked
+bash: line 1: cargo: command not found

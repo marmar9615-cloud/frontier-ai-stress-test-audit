@@ -1,0 +1,5 @@
+
+> neon-dungeon-tactics@1.0.0 test
+> vitest run --run
+
+sh: 1: vitest: not found

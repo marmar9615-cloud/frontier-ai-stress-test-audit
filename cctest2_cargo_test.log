@@ -1,0 +1,3 @@
+PWD=/mnt/data/model_audit_work/extracted/cctest2(1)/cctest2/miniregex
+CMD=cargo test --all --locked
+bash: line 1: cargo: command not found

@@ -1,0 +1,3 @@
+PWD=/mnt/data/model_audit_work/extracted/claudecodetest(1)/claudecodetest/cctest6
+CMD=PYTHONPATH=src python3 -m pytest -q
+......

@@ -1,0 +1,23 @@
+id,prompt,reported_grade,key_failure_or_strength
+1,FLT n=3,B+,Correct math; formalization mostly invokes mathlib
+2,p500 dependent language,C+,Identity-function self-hosting / scope narrowing
+3,Rust RISC-V OS kernel,A,Boots in QEMU and fuzzes in reported audit
+4,Lock-free B-tree,A-,Real snapshot design; honest benchmark loss in insert-only workload
+5,Reverse engineering + UB,B+,Behavioral equivalence but incomplete writeup
+6,Busy Beaver 6,A-,Honest refusal; built real simulator
+7,NUMA sort,A-,Strong narrow optimization; limited external reproducibility
+8,3-SAT constrained story,A,Mechanically verified constraints and satisfiability
+9,Eyewitness,B+/D+,Good methodology; weak token-matching code artifact
+10,Post-quantum PSI,B-,Correct toy structure but broken LWE parameters
+S1,HTTP server,C+/B-,Parser/integration issue in reported audit
+S2,Fermat two-squares,A/A+,Caught false premise
+S3,JIT regex,B-/B,Hardcoded benchmark hot path
+S4,Real analysis endpoint,A/A+,Caught undefined endpoint
+S5,TOV neutron star,A/A+,Caught missing K
+S6,Johnson APSP,A,Verified algorithm and negative cycle detection
+S7,Threshold lattice signatures,A-,Honest refusal/survey
+S8,Constrained math story,A,Structural constraints verified
+S9,ML from scratch,A-,Runnable scaffold; no fake 24h result
+S10,Calibration physics,A,Citations and Brier math verified
+S11,Long-context novels,A,Caught translation/presence/absence traps
+S12,Self-assessment,A,Cited benchmark numbers and unknowns honestly

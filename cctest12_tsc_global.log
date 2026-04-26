@@ -1,0 +1,5 @@
+tests/bot.test.ts(1,38): error TS2307: Cannot find module 'vitest' or its corresponding type declarations.
+tests/collision.test.ts(1,38): error TS2307: Cannot find module 'vitest' or its corresponding type declarations.
+tests/gravity.test.ts(1,38): error TS2307: Cannot find module 'vitest' or its corresponding type declarations.
+tests/replay.test.ts(1,38): error TS2307: Cannot find module 'vitest' or its corresponding type declarations.
+tests/serialization.test.ts(1,38): error TS2307: Cannot find module 'vitest' or its corresponding type declarations.

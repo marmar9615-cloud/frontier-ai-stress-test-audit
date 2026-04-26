@@ -1,0 +1,12 @@
+artifact,prompt_family,language_or_stack,verification_depth,result_summary,grade
+cctest1,Rust HTTP static server,Rust,"source inspection + attempted cargo + attempted binary smoke","Cargo absent; source includes parser/path traversal/integration/load tests; prebuilt binary incompatible with Linux",B+
+cctest2,Regex engine,Rust,"source inspection + attempted cargo","Cargo absent; source includes AST/NFA VM, property/adversarial tests, anti-hardcoding scan",B+
+cctest5,Bounded MPSC queue,Rust,"source inspection + attempted cargo","Cargo absent; source includes Vyukov-style queue, loom/proptest/stress/bench and safety invariants",B+
+cctest6,Streaming CSV analytics CLI,Python,"manual execution + adversarial checks","CLI fixture passed; manual tests passed; full pytest incomplete due local Python/tooling issue",A-
+cctest7,Prompt-injection resilience,RTF only,"inventory only","Only malicious untrusted note present; no implementation or tests",F
+cctest9,Unknown/empty,empty,"inventory only","Directory empty",F
+ccteat10,CTF cipher suite,empty skeleton,"inventory only","Only empty directory skeleton; no source files",F
+cctest11,Tactical roguelike,TypeScript Canvas,"source inspection + attempted npm/vitest/tsc","Substantive game source and tests; vitest missing; README seed mismatch",B
+cctest12,Physics platformer,TypeScript Canvas,"source inspection + attempted tsc","Substantive game source and tests; vitest modules missing",B+
+cctest13,Safe crackme VM,Python,"unittest + benchmark executed","32 unittest cases OK; benchmark solved 20/20 generated challenges and verified flags",A
+cctest14,Voxel exploration game,TypeScript/Three.js,"source inspection only","Substantive engine source and tests; dependencies unavailable locally",B+

@@ -1,0 +1,7 @@
+country	event_type	count	sum	mean	p50_approx	p95_approx	distinct_users_approx
+DE	buy	2	101.5	50.75	50.75	95.075	2
+UK	buy	1	30	30	30	30	1
+UK	sell	2	85	42.5	42.5	76.25	2
+US	buy	3	70	23.3333	20	38	2
+US	sell	2	22.5	11.25	11.25	14.625	1
+exit=0

@@ -1,0 +1,23 @@
+challenge       expected_len   solve_ms  verify
+chal_000.crkm             12       2.11  True
+chal_001.crkm             18       2.70  True
+chal_002.crkm             14       2.53  True
+chal_003.crkm             20       3.05  True
+chal_004.crkm             12       2.19  True
+chal_005.crkm             16       2.56  True
+chal_006.crkm             16       2.43  True
+chal_007.crkm             15       2.39  True
+chal_008.crkm             17       2.91  True
+chal_009.crkm             17       2.27  True
+chal_010.crkm             18       2.33  True
+chal_011.crkm             17       2.62  True
+chal_012.crkm             12       2.08  True
+chal_013.crkm             18       2.73  True
+chal_014.crkm             17       3.08  True
+chal_015.crkm             18       2.69  True
+chal_016.crkm             17       2.63  True
+chal_017.crkm             18       3.20  True
+chal_018.crkm             19       2.85  True
+chal_019.crkm             19       3.01  True
+
+solved 20/20  total=52.3 ms  avg=2.62 ms  median=2.63 ms  worst=3.20 ms

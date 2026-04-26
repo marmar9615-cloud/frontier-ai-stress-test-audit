@@ -1,0 +1,39 @@
+PWD=/mnt/data/model_audit_work/extracted/claudecodetest(1)/claudecodetest/cctest13
+CMD=/usr/bin/python3 -m unittest discover -v
+test_cfg_branch (tests.test_analyzer.TestAnalyzer.test_cfg_branch) ... ok
+test_compares (tests.test_analyzer.TestAnalyzer.test_compares) ... ok
+test_decode_count (tests.test_analyzer.TestAnalyzer.test_decode_count) ... ok
+test_guess_expected_length (tests.test_analyzer.TestAnalyzer.test_guess_expected_length) ... ok
+test_guess_expected_length_missing (tests.test_analyzer.TestAnalyzer.test_guess_expected_length_missing) ... ok
+test_input_reads (tests.test_analyzer.TestAnalyzer.test_input_reads) ... ok
+test_reachable_from_entry (tests.test_analyzer.TestAnalyzer.test_reachable_from_entry) ... ok
+test_terminators (tests.test_analyzer.TestAnalyzer.test_terminators) ... ok
+test_solver_never_reads_metadata (tests.test_anticheat.TestAntiCheat.test_solver_never_reads_metadata) ... ok
+test_disassembly_preserves_data (tests.test_roundtrip.TestRoundtrip.test_disassembly_preserves_data) ... ok
+test_generated_no_obfuscation (tests.test_roundtrip.TestRoundtrip.test_generated_no_obfuscation) ... ok
+test_generated_obfuscated (tests.test_roundtrip.TestRoundtrip.test_generated_obfuscated) ... ok
+test_hand_written (tests.test_roundtrip.TestRoundtrip.test_hand_written) ... ok
+test_solves_obfuscated_batch (tests.test_solver.TestSolver.test_solves_obfuscated_batch) ... ok
+test_solves_unobfuscated (tests.test_solver.TestSolver.test_solves_unobfuscated) ... ok
+test_accept (tests.test_vm.TestAcceptReject.test_accept) ... ok
+test_halt_is_reject (tests.test_vm.TestAcceptReject.test_halt_is_reject) ... ok
+test_reject (tests.test_vm.TestAcceptReject.test_reject) ... ok
+test_bitwise (tests.test_vm.TestArithmetic.test_bitwise) ... ok
+test_div_by_zero_raises (tests.test_vm.TestArithmetic.test_div_by_zero_raises) ... ok
+test_mov_and_add (tests.test_vm.TestArithmetic.test_mov_and_add) ... ok
+test_mul_div_mod (tests.test_vm.TestArithmetic.test_mul_div_mod) ... ok
+test_shift (tests.test_vm.TestArithmetic.test_shift) ... ok
+test_sub_and_neg (tests.test_vm.TestArithmetic.test_sub_and_neg) ... ok
+test_call_and_ret (tests.test_vm.TestControlFlow.test_call_and_ret) ... ok
+test_conditional_jumps (tests.test_vm.TestControlFlow.test_conditional_jumps) ... ok
+test_jmp (tests.test_vm.TestControlFlow.test_jmp) ... ok
+test_memory_indirect (tests.test_vm.TestMemoryAndStack.test_memory_indirect) ... ok
+test_memory_roundtrip (tests.test_vm.TestMemoryAndStack.test_memory_roundtrip) ... ok
+test_oob_load_raises (tests.test_vm.TestMemoryAndStack.test_oob_load_raises) ... ok
+test_stack (tests.test_vm.TestMemoryAndStack.test_stack) ... ok
+test_input_byte_compare (tests.test_vm.TestStringComparison.test_input_byte_compare) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.310s
+
+OK

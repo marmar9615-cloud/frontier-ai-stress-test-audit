@@ -1,0 +1,8 @@
+record_id,path,type,status,notes
+PAPER-001,paper/frontier-ai-stress-test-audit-v1.pdf,preprint,final,"Zenodo DOI 10.5281/zenodo.19779656"
+SOURCE-001,paper/main.tex,latex_source,final,"Updated author, DOI, GitHub repository link, and PDF metadata"
+BIB-001,paper/references.bib,bibliography,final,"Updated internal audit setup attribution"
+DATA-001,data/claude_code_results.csv,evaluation_table,final,"Claude Code artifact review table"
+DATA-002,data/gpt_report_tasks.csv,evaluation_table,final,"OpenAI-side task summary from prior audit bundle"
+DATA-003,data/gpt_report_distribution.csv,evaluation_table,final,"OpenAI-side grade distribution"
+LOGS-001,verification/logs/,test_logs,final,"Local command/test logs retained from artifact review"

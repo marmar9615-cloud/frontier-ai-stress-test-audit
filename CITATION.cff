@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository or the accompanying artifacts, please cite the Zenodo record."
+title: "Stress Testing Frontier AI Systems for Verifiable Reasoning and Code Generation: GPT-5.5 Pro / Extra High, Codex, Claude Opus 4.7 Chat, and Claude Code"
+authors:
+  - family-names: "Jiron"
+    given-names: "Marcel"
+date-released: "2026-04-26"
+version: "1.0.0"
+doi: "10.5281/zenodo.19779656"
+url: "https://doi.org/10.5281/zenodo.19779656"
+license: "CC-BY-4.0"
